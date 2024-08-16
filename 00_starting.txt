@@ -1,0 +1,54 @@
+A unix Shell program interpretes users command that can be inputted by
+the user or also from a file which includes shell scripts in it.
+
+Shell scripts are interprited not compiles. Python also interpretes the
+python scripts. shell and pythons are called scripts as they are interpreted
+not compiled.
+
+┌──(kali㉿kali)-[~]
+└─$ echo "$SHELL"                                             
+/usr/bin/zsh
+
+to know which shells are used in your system we can use "echo "%$SHELL"" command 
+that will show the directory path of the default/comanding shell. To see other 
+shells that are installed the unix system we have to cat the /etc/shells file.
+That will show the shell scripting languages name in the file
+
+As here is an example:
+
+┌──(kali㉿kali)-[~]
+└─$ cat /etc/shells                                          
+# /etc/shells: valid login shells
+/bin/sh
+/usr/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/bin/dash
+/usr/bin/dash
+/usr/bin/tmux
+/bin/zsh
+/usr/bin/zsh
+/usr/bin/pwsh
+/opt/microsoft/powershell/7/pwsh
+/usr/bin/screen
+                                                                                                     
+To make a shell file we use filename.sh as the file name and that works perfectly 
+and we are going to learn in BASH shell scripting language which is also known as
+Bourne Again Shell.
+
+To run every .sh file in your system, we can use the chmod command for every one 
+of them. like;
+
+┌──(kali㉿kali)-[~/Shell_Scripting]
+└─$ chmod u+x Starting.txt 
+                                                                                                     
+┌──(kali㉿kali)-[~/Shell_Scripting]
+└─$ chmod u+x 01_first_shell.sh
+
+ 
+Thank You
+
+							    ----Md. Arafat Sarkar
+								Brac University
