@@ -11,7 +11,7 @@ read -p "Give the sign here: " sign
 sum=$((numbers[0]+numbers[1]))
 sub=$((numbers[0]-numbers[1]))
 mul=$((numbers[0]*numbers[1]))
-if (( number[1]!=0 ))
+if (( numbers[1]!=0 ))
 then
 	div=$((numbers[0]/numbers[1]))
 	mod=$((numbers[0]/numbers[1]))
